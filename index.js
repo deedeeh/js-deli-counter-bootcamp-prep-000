@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     for(var i = 0; i < katzDeliLine.length; i++) {
       newArray.push(katzDeliLine[i]);
       // newArray.join(", ");
-      result += `${i+1}. ${newArray[i].join(", ")}`;
+      result += `${i+1}. ${newArray.join(", ")}`;
     }
     return result;
   }
