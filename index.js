@@ -26,7 +26,7 @@ function currentLine(katzDeliLine) {
     }
     newArray.join(", ");
     result += `${i+1}. ${newArray[i]}`;
-    return result;
+    return newArray;
   }
 }
 
